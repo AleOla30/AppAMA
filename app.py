@@ -10,8 +10,8 @@ from googletrans import Translator
 st.title("Interfaces Multimodales")
 st.subheader("TRADUCTOR")
 
-image = Image.open('traductormorado.jpg')
-st.image(image)
+#image = Image.open('traductormorado.jpg')
+#st.image(image)
 
 st.write("Ingrese el texto que desea traducir y convertir en audio:")
 text = st.text_area("Texto")
